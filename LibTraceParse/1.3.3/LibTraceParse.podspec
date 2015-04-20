@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license      =  { :type => 'Proprietary', :file => 'LICENSE' }
   s.homepage     =  'http://www.spir.fr'
   s.author       = { "Barthelemy David" => "INFORMATIQUE_PROJETS_MOBILITE@spir.fr" }
-  s.source       = { :svn => "http://pwappsvn-1.external.spir.fr/pub/spir-lib-traceparse", :tag => s.version.to_s }
+  s.source       = { :svn => "http://pwappsvn-1.external.spir.fr/pub/adtechnos-mobilite/Pods/LibTraceParse", :tag => s.version.to_s }
 
   s.summary      =  'Structured logging system.'
   s.description  =  'SPIR Communication internal library builds on top of Parse service to provide a structured data logging system.'
