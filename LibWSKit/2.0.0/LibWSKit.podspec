@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license      =  { :type => 'Proprietary', :file => 'LICENSE' }
   s.homepage     =  'http://www.spir.fr'
   s.author       =  { "Delepine Thibaut" => "tdelepine@gmail.com" }
-  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/spir-lib-wskit", :tag => s.version.to_s }
+  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/adtechnos-mobilite/Pods/LibWSKit", :tag => s.version.to_s }
 
   s.summary      =  'LibWSKit is an Objective-C framework for iOS that aims to make interacting with RESTful or SOAP web services '
   s.description  =  'SPIR Communication internal library for provide tools and classes to make interacting with RESTful or SOAP web services simple, fast and fun.'
