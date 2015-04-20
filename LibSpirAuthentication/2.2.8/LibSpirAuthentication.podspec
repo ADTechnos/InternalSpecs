@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.author       = { "Delepine Thibaut" => "tdelepine@gmail.com" }
   s.version      = "2.2.8"
   s.homepage     =  'http://www.spir.fr'
-  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/spir-lib-authentication", :tag => s.version.to_s }
+  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/adtechnos-mobilite/Pods/LibSpirAuthentication", :tag => s.version.to_s }
 
   s.license      = { :type => 'Proprietary', :file => 'LICENSE' }
 
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
     sp.source_files = 'Classes/Models/Base/**/*.{m,h,c}'
   end
 
-  s.dependency 'NSData+Base64', '1.0.0'
-  s.dependency 'LibSpirCore', '~> 1.3.14'
+  s.dependency 'NSData+Base64', '~>1.0.0'
+  s.dependency 'LibSpirCore', '1.3.19'
 
 end
