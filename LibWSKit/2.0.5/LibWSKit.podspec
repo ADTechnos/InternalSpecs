@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license      =  { :type => 'Proprietary', :file => 'LICENSE' }
   s.homepage     =  'http://www.spir.fr'
   s.author       =  { "Delepine Thibaut" => "tdelepine@gmail.com" }
-  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/spir-lib-wskit", :tag => s.version.to_s }
+  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/adtechnos-mobilite/Pods/LibWSKit", :tag => s.version.to_s }
 
   s.summary      =  'LibWSKit is an Objective-C framework for iOS that aims to make interacting with RESTful or SOAP web services '
   s.description  =  'SPIR Communication internal library for provide tools and classes to make interacting with RESTful or SOAP web services simple, fast and fun.'
@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   s.dependency 'Reachability', '3.1.1'
   s.dependency 'GRMustache', '4.0.0'
   s.dependency 'GData-XMLSupport', '1.12.0'
-  s.dependency 'LibSpirCore', '~> 1.3.19'
-  s.dependency 'LibSpirAuthentication/Base', '~> 2.2.8'
+  s.dependency 'LibSpirCore', '1.3.19'
+  s.dependency 'LibSpirAuthentication/Base', '2.2.8'
 
   # needed for GData-XMLSupport
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(SDKROOT)/usr/include/libxml2"','CLANG_ENABLE_OBJC_ARC' => 'YES'}
