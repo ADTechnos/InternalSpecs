@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.author       = {"MAES Adrien" => "adrien.maes@spir.fr" }
   s.version      = "1.1.8"
   s.homepage     =  'http://www.spir.fr'
-  s.source       = { :svn => "http://pwappsvn-1.external.spir.fr/pub/spir-store", :tag => s.version.to_s }
+  s.source       = { :svn => "http://pwappsvn-1.external.spir.fr/pub/adtechnos-mobilite/Pods/LibSpirStore", :tag => s.version.to_s }
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.summary      =  'Managed the connection authorizations to the SPIR information system.'
@@ -26,7 +26,10 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit'
 
-  s.dependency 'LibSpirCore', '~> 1.3.0'
-  s.dependency 'LibSpirAuthentication/Base', '~> 2.2.1'
+  s.dependency 'LibSpirCore', '1.3.17'
+  s.dependency 'LibSpirAuthentication/Base', '2.2.5'
+  
+  
+  s.dependency 'TOWebViewController', '~> 2.0'
 
 end
