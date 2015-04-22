@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.author       = { "Loïc Lefort" => "llefort@spir.fr" }
   s.version      = "1.0.9"
   s.homepage     = 'http://www.spir.fr'
-  s.source       = { :svn => "http://pwappsvn-1.external.spir.fr/pub/spir-lib-syndication", :tag => s.version.to_s }
+  s.source       = { :svn => "http://pwappsvn-1.external.spir.fr/pub/adtechnos-mobilite/Pods/LibSpirSyndication", :tag => s.version.to_s }
   s.license      = { :type => 'Proprietary', :file => 'LICENSE' }
 
   s.summary      = 'Handle the retrieval of SPIR RSS feeds'
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/**/*.{m,h,c}'
 
-  s.dependency 'LibSpirAuthentication/Base', '~> 2.2.0'
-  s.dependency 'LibSpirCore', '~> 1.3.0'
+  s.dependency 'LibSpirAuthentication/Base', '2.2.5'
+  s.dependency 'LibSpirCore', '1.3.17'
   s.dependency 'XMLReader', '~> 0.0.2'
 end
