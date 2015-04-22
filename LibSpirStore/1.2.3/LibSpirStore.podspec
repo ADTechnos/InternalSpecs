@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LibSpirStore"
   s.author       = {"MAES Adrien" => "adrien.maes@spir.fr" }
-  s.version      = "1.2.2"
+  s.version      = "1.2.3"
   s.homepage     =  'http://www.spir.fr'
   s.source       = { :svn => "http://pwappsvn-1.external.spir.fr/pub/adtechnos-mobilite/Pods/LibSpirStore", :tag => s.version.to_s }
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit'
 
-  s.dependency 'LibSpirCore', '1.3.19'
-  s.dependency 'LibSpirAuthentication/Base', '2.2.8'
+  s.dependency 'LibSpirCore', '1.3.20'
+  s.dependency 'LibSpirAuthentication/Base', '2.2.9'
   
   
   s.dependency 'TOWebViewController', '~> 2.0'
