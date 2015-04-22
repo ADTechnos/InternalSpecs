@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/**/*.{m,h,c}'
 
-  s.dependency 'LibSpirAuthentication/Base', '2.2.5'
-  s.dependency 'LibSpirCore', '1.3.17'
+  s.dependency 'LibSpirAuthentication/Base', '~> 2.2.5'
+  s.dependency 'LibSpirCore', '~> 1.3.17'
   s.dependency 'XMLReader', '~> 0.0.2'
 end
