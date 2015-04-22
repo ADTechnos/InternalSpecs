@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'Foundation'
 
-  s.dependency 'LibSpirCore', '1.3.17'
+  s.dependency 'LibSpirCore', '~> 1.3.17'
 end
