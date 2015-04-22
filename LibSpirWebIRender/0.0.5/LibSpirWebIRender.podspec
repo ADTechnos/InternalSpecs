@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license      =  { :type => 'Proprietary', :file => 'LICENSE' }
   s.homepage     =  'http://www.spir.fr'
   s.author       = { "Loïc Lefort" => "llefort@spir.fr" }
-  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/spir-lib-webi-render", :tag => s.version.to_s }
+  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/adtechnos-mobilite/Pods/LibSpirWebIRender", :tag => s.version.to_s }
 
   s.summary      =  'Handle interactions with a WebI server'
   s.description  =  'SPIR Communication internal library to handle parameterization and downloading of rendered PDF documents from a WebI server'
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'Foundation'
 
-  s.dependency 'LibSpirCore', '~> 1.3.5'
+  s.dependency 'LibSpirCore', '1.3.17'
 end
