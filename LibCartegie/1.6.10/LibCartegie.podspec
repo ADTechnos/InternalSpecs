@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license      =  { :type => 'Proprietary', :file => 'LICENSE' }
   s.homepage     =  'http://www.spir.fr'
   s.author       = { "Delepine Thibaut" => "tdelepine@gmail.com" }
-  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/spir-lib-cartegie", :tag => s.version.to_s }
+  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/adtechnos-mobilite/Pods/LibCartegie", :tag => s.version.to_s }
 
   s.summary      =  'Access to cartegie customer functional research.'
   s.description  =  'SPIR Communication internal library for provide access on fully fonctionality cargtegie customer research.'
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.dependency 'NSData+Base64',    '1.0.0'
   s.dependency 'XMLReader',        '0.0.2'
   s.dependency 'MBProgressHUD',    '0.7.1'
-  s.dependency 'LibSpirCore',      '~> 1.3.0'
-  s.dependency 'LibSpirAuthentication/Base',   '~> 2.2.0'
+  s.dependency 'LibSpirCore',      '1.3.17'
+  s.dependency 'LibSpirAuthentication/Base',   '2.2.5'
 
 end
