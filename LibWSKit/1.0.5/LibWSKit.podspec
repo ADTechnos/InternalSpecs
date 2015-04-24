@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.dependency 'Reachability', '3.1.1'
   s.dependency 'GRMustache', '4.0.0'
   s.dependency 'LibSpirCore', '~> 1.3.17'
-  s.dependency 'LibSpirAuthentication/Base', '2.2.5'
+  s.dependency 'LibSpirAuthentication/Base', '~> 2.2.5'
 
   s.xcconfig     = { 'HEADER_SEARCH_PATHS' => '"$(SDKROOT)/usr/include/libxml2"','CLANG_ENABLE_OBJC_ARC' => 'YES'}
 
