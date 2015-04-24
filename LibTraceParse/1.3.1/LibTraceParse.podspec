@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'CFNetwork', 'CoreTelephony'
   s.library = 'sqlite3'
 
-  s.dependency 'Parse'
+  s.dependency 'Parse', '~> 1.4.2'
   s.xcconfig     = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/Parse/Parse.framework/Headers"' }
 end
