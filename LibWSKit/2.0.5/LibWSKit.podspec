@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.dependency 'Reachability', '3.1.1'
   s.dependency 'GRMustache', '4.0.0'
   s.dependency 'GData-XMLSupport', '1.12.0'
-  s.dependency 'LibSpirCore', '1.3.19'
+  s.dependency 'LibSpirCore', '~> 1.3.19'
   s.dependency 'LibSpirAuthentication/Base', '2.2.8'
 
   # needed for GData-XMLSupport
