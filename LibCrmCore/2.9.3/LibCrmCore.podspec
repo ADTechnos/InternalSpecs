@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license      =  { :type => 'Proprietary', :file => 'LICENSE' }
   s.homepage     =  'http://www.spir.fr'
   s.author       =  { "Delepine Thibaut" => "tdelepine@gmail.com" }
-  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/spir-lib-crm-core", :tag => s.version.to_s }
+  s.source       =  { :svn => "http://pwappsvn-1.external.spir.fr/pub/adtechnos-mobilite/Pods/LibCrmCore", :tag => s.version.to_s }
 
   s.summary      =  'Managed the access to the CRM backend .'
   s.description  =  'SPIR Communication internal library for provide access on fully fonctionality Customer, Contact and Appointment for vendor portfolio'
@@ -42,9 +42,9 @@ Pod::Spec.new do |s|
     cs.dependency 'NSData+Base64', '1.0.0'
     cs.dependency 'Reachability', '3.1.1'
     cs.dependency 'GRMustache', '4.0.0'
-    cs.dependency 'LibWSKit', '~> 2.0.4'
-    cs.dependency 'LibSpirCore', '~> 1.3.14'
-    cs.dependency 'LibSpirAuthentication/Base', '~> 2.2.0'
+    cs.dependency 'LibWSKit', '2.0.7'
+    cs.dependency 'LibSpirCore', '1.3.20'
+    cs.dependency 'LibSpirAuthentication/Base', '2.2.9'
 
     cs.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(SDKROOT)/usr/include/libxml2"','CLANG_ENABLE_OBJC_ARC' => 'YES'}
   end
